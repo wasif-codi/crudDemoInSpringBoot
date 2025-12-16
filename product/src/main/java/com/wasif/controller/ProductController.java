@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 public class ProductController {
-
+    int a =10;
     private final ProductServiceInterface productService;
 
     ProductController(ProductServiceInterface productService){

@@ -10,7 +10,11 @@ import java.util.List;
 
 @RestController
 public class ProductController {
+
     int a =10;
+
+String name = "crudapp";
+
     private final ProductServiceInterface productService;
 
     ProductController(ProductServiceInterface productService){
